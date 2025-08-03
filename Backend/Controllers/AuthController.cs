@@ -9,6 +9,7 @@ namespace Backend.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
+        //Repository pattern
         private readonly IAuthRepository _authRepository;
         public AuthController(IAuthRepository authRepository)
         {
